@@ -286,7 +286,7 @@ export default function TopicList() {
   return (
     <Box minH="95vh" bg={isLightMode ? "gray.100" : "#212225"}>
       <Head>
-        <title>The Ultimate Topic List</title>
+        <title>The Ultimate Topic List | Static </title>
         <meta
           name="description"
           content="A comprehensive list of topics in Competitive Programming"
@@ -507,7 +507,7 @@ export default function TopicList() {
         </Flex>
         <Center mt={20}>
           <Text color={isLightMode ? "gray.400" : "gray.500"} fontSize="sm">
-            This is a static{" "}
+            This is a <i>static</i>{" "}
             <Link
               href="https://github.com/ShahjalalShohag/the-ultimate-topic-list"
               isExternal

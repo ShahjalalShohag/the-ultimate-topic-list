@@ -40,7 +40,7 @@ export default function Navbar() {
           mx="auto"
           border={"none"}
           py={1}
-          px={3}
+          px={isMobile ? 1 : 3}
           borderRadius={5}
           borderColor="gray.700"
           bg="rgba(33, 34, 37, 0.9)"
@@ -85,7 +85,7 @@ export default function Navbar() {
 
               <Flex align="center">
                 <Button
-                  size="sm"
+                  size={isMobile ? "xs" : "sm"}
                   colorScheme="whiteAlpha"
                   onClick={() =>
                     open(
@@ -98,7 +98,7 @@ export default function Navbar() {
                 </Button>
                 <Button
                   ml={2}
-                  size="sm"
+                  size={isMobile ? "xs" : "sm"}
                   colorScheme="whiteAlpha"
                   onClick={() =>
                     open("https://youkn0wwho.academy/topic-list", "_blank")
