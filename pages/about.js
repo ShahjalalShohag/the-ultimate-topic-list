@@ -290,8 +290,8 @@ const AboutPage = () => {
             wishes, my friend.
             <img
               src="https://cdn3.emoji.gg/emojis/8771_blobheart.png"
-              width="64px"
-              height="64px"
+              width="60px"
+              height="60px"
               alt="blobheart"
             />
           </Text>
