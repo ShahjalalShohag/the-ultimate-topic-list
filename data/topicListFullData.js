@@ -1,3 +1,8 @@
+// topicInfo contains the data for all resources and templates for each topic.
+// and topicListProblems contains data for all ~3500 problems and their data and the topics they belong to.
+// the data structure is similar to the one in the firestore database,
+// and actually these files have been exported from the firestore database of the original project.
+
 export const topicInfo = {
   "0_1_bfs": {
     resources: [
