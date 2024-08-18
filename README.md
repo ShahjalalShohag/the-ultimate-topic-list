@@ -1,5 +1,7 @@
 # the-ultimate-topic-list
 
+Deployed at: [https://the-ultimate-topic-list.vercel.app](https://the-ultimate-topic-list.vercel.app)
+
 This is the static and open-source version of [The Ultimate Topic List](https://youkn0wwho.academy/topic-list)
 
 This has been created only to make sure that the list is available to everyone even if I die and the original website goes down. It can happen because on that website all data are hosted on Firebase and I won't be able to pay for Firebase services when I die.
