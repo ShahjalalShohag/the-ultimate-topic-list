@@ -71,7 +71,9 @@ export default function Navbar() {
             <Flex align="center" flexGrow={1} justify="center">
               <div>
                 <NavLink href="/about">About</NavLink>
-                <NavLink href="/guideline">Start Here</NavLink>
+                <NavLink href="/guideline">
+                  {isMobile ? "Start" : "Start Here"}
+                </NavLink>
                 <NavLink
                   href="https://github.com/ShahjalalShohag/code-library"
                   isExternal
