@@ -1,0 +1,11 @@
+.logo {
+  font-family: Jura, Arial;
+  font-size: 20px;
+  line-height: 1;
+  margin: 0;
+}
+@font-face {
+  font-family: Jura;
+  src: local("Jura"), url("/fonts/Jura-Regular.woff") format("woff");
+  font-display: swap;
+}

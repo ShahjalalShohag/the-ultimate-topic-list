@@ -1,0 +1,27 @@
+.navLink {
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0 0.7rem;
+  color: #d7d9d9;
+  font-size: 0.9rem;
+}
+
+.navLink:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px; /* Adjust the thickness of the underline */
+  background-color: gray;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover {
+  color: #fff;
+}
+
+.navLink:hover:after {
+  width: 100%;
+  background-image: linear-gradient(to left, #d4d5e6, gray);
+}

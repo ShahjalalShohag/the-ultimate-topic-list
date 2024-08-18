@@ -1,0 +1,40 @@
+{
+  "name": "academy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/accordion": "^2.3.1",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/utils": "^2.0.14",
+    "@fontsource/inter": "^4.5.1",
+    "@emotion/css": "^11.5.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^10.16.9",
+    "lodash.debounce": "^4.0.8",
+    "lodash.kebabcase": "^4.1.1",
+    "log-utils": "^0.3.0",
+    "date-fns": "^2.30.0",
+    "next": "^14.0.1",
+    "next-images": "^1.8.4",
+    "next-seo": "^5.1.0",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.1.1",
+    "react-icons": "^4.12.0",
+    "core-js-pure": "^3.31.0",
+    "react-loading-skeleton": "^3.3.1"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "log-utils": "1.0.0"
+  }
+}
