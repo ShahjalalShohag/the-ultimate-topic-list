@@ -1,6 +1,8 @@
 # the-ultimate-topic-list
 
-Deployed at: [https://the-ultimate-topic-list.vercel.app](https://the-ultimate-topic-list.vercel.app)
+Dynamic version is deployed at: [https://youkn0wwho.academy/topic-list](https://youkn0wwho.academy/topic-list)
+
+Static version if deployed at: [https://the-ultimate-topic-list.vercel.app](https://the-ultimate-topic-list.vercel.app)
 
 This is the static and open-source version of [The Ultimate Topic List](https://youkn0wwho.academy/topic-list)
 
