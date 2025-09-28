@@ -279,7 +279,7 @@ export const topicList = [
             phase: 1,
           },
           {
-            topic_title: "List",
+            topic_title: "List / Linked List",
             topic_id: "list",
             difficulty: 0,
             importance: 2,
@@ -1049,14 +1049,23 @@ export const topicList = [
         ],
       },
       {
-        sub_category_title: "Miscellaneous",
-        sub_category_id: "miscellaneous",
+        sub_category_title: "Monotonic Data Structures",
+        sub_category_id: "monotonic_data_structures",
         topics: [
+          {
+            topic_title:
+              "Monotonic Stack: All Nearest Smaller Values and All Subarray Maximum/Minimum",
+            topic_id: "all_subarray_maximum_minimum",
+            difficulty: 1,
+            importance: 3,
+            phase: 4,
+          },
           {
             topic_title: "Monotonic Queue",
             topic_id: "monotonous_queue",
             difficulty: 1,
             importance: 3,
+            phase: 4,
           },
           {
             topic_title: "Monotonic Queue 2D",
@@ -1070,6 +1079,12 @@ export const topicList = [
             difficulty: 2,
             importance: 1,
           },
+        ],
+      },
+      {
+        sub_category_title: "Miscellaneous",
+        sub_category_id: "miscellaneous",
+        topics: [
           {
             topic_title: "Interval Set",
             topic_id: "interval_set",
@@ -2063,6 +2078,13 @@ export const topicList = [
             difficulty: 3,
             importance: 1,
           },
+          {
+            topic_title: "Powerful Number Sieve / PN Sieve",
+            topic_id: "powerful_number_sieve",
+            difficulty: 3,
+            importance: 1,
+            date_added: "2024-08-27",
+          },
         ],
       },
       {
@@ -2178,6 +2200,15 @@ export const topicList = [
             difficulty: 1,
             importance: 3,
             phase: 4,
+          },
+          {
+            topic_title: "Linear Diophantine Equation with N Variables",
+            topic_id: "linear_diophantine_equation_with_n_variables",
+            topic_desc:
+              "Find a solution to a[1]*x[1] + a[2]*x[2] + ... + a[n]*x[n] = c",
+            difficulty: 2,
+            importance: 2,
+            date_added: "2024-09-28",
           },
           {
             topic_title:
@@ -2858,7 +2889,7 @@ export const topicList = [
             importance: 1,
           },
           {
-            topic_title: "Berlekamp Messey",
+            topic_title: "Berlekamp Massey",
             topic_id: "berlekamp_messey",
             difficulty: 3,
             importance: 3,
@@ -2974,6 +3005,13 @@ export const topicList = [
             topic_id: "basis_vector_ft_lexicographically_largest_basis",
             difficulty: 2,
             importance: 2,
+          },
+          {
+            topic_title: "XOR Basis with Deletions (Online)",
+            topic_id: "basis_vector_with_deletions",
+            difficulty: 3,
+            importance: 1,
+            date_added: "2024-10-17",
           },
           {
             topic_title: "q Binomial",
@@ -4374,7 +4412,7 @@ export const topicList = [
             importance: 2,
           },
           {
-            topic_title: "[Trick] Logarithmic Subarray Aggregator",
+            topic_title: "[Trick] Logarithmic Subarray Aggregator (LSA Trick)",
             topic_id: "logarithmic_bruteforce",
             topic_desc:
               "Note: There is no official name for this technique, I just gave it a name.",
@@ -4405,6 +4443,14 @@ export const topicList = [
             topic_id: "bitwise_disjoint_partitioning",
             difficulty: 2,
             importance: 2,
+          },
+          {
+            topic_title:
+              "[Trick] Efficient Non-Increasing Sequence Recovery of Length n with a[i] <= n/i",
+            topic_id: "sqrt_n_sequence_recovery",
+            difficulty: 2,
+            importance: 1,
+            date_added: "2024-09-29",
           },
         ],
       },
@@ -4494,14 +4540,6 @@ export const topicList = [
             importance: 1,
           },
           {
-            topic_title:
-              "All Nearest Smaller Values and All Subarray Maximum/Minimum",
-            topic_id: "all_subarray_maximum_minimum",
-            difficulty: 1,
-            importance: 3,
-            phase: 4,
-          },
-          {
             topic_title: "Backtracking",
             topic_id: "backtracking",
             difficulty: 1,
@@ -4530,6 +4568,13 @@ export const topicList = [
             topic_id: "pragmas",
             difficulty: 2,
             importance: 2,
+          },
+          {
+            topic_title:
+              "Boyer–Moore Voting Algorithm and Misra–Gries Algorithm",
+            topic_id: "boyer_moore_voting_algorithm_and_misra_gries_algorithm",
+            difficulty: 1,
+            importance: 1,
           },
         ],
       },
