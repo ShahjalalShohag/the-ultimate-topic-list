@@ -4639,11 +4639,6 @@ export const usefulLinks = [
   },
   {
     title:
-      "StopStalk — Track your progress on various competitive programming websites at one place",
-    link: "https://www.stopstalk.com/",
-  },
-  {
-    title:
       "CP Algorithms — A great resource for Algorithms for Competitive Programming",
     link: "https://cp-algorithms.com/index.html",
   },
